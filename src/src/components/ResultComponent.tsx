@@ -25,7 +25,7 @@ const ResultComponent = (props:ResultProps) => {
                 <div className='text'>Правильна відповідь!</div>
                 <div className='arrow' onClick={props.nextQuestion}>➜</div>
               </div>
-              <img className="result-smile" src="../public/smile.png"/>
+              <img className="result-smile" src="smile.png"/>
               <div className="result-text">
                 {props.fact}
               </div>
@@ -39,7 +39,7 @@ const ResultComponent = (props:ResultProps) => {
                 <div className='text'>Неправильна відповідь!</div>
                 <div className='arrow' onClick={props.nextQuestion}>➜</div>
               </div>
-              <img className="result-smile" src="../public/angry.png"/>
+              <img className="result-smile" src="angry.png"/>
               <div className="result-text">
                 {props.fact}
               </div>

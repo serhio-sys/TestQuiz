@@ -19,7 +19,7 @@ const QuestionComponent = (props:QuestionProps) => {
 
     return(
         <div style={{backgroundColor:`${props.question.color}`}} className='fullscreen-hello test-block'>
-            <div className='question'><img className='question-icon' src='../public/question.png' />{props.question.question}</div>
+            <div className='question'><img className='question-icon' src='question.png' />{props.question.question}</div>
             <div className='progress-show'><div className='progress-bar'><div className='progress' style={{width:((props.currentQuestion+1)/props.questionsLength)*100+`%`}}></div></div>{props.currentQuestion+1}/{props.questionsLength}</div>
             <div className='answers'>
                 {
