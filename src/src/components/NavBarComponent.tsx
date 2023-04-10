@@ -2,7 +2,7 @@ const NavBarComponent = () => {
     return(
         <nav className='nav'>
             <div className='nav-logo'>
-                <img className='nav-logo-img' src='../public/PPFK_logo.png' alt='Logo image'/>
+                <img className='nav-logo-img' src='PPFK_logo.png' alt='Logo image'/>
                 <div className='nav-logo-text'>ППФК</div>
             </div>
             <ul className='nav-list'>
